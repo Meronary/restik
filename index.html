@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FOREVER Restaurant — Главная</title>
+    <link rel="icon" href="Content/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <a class="navbar-brand brand-gold" href="index.html">FOREVER</a>
+        
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Меню</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="booking.html">О нас и Бронь</a>
+            </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 search-input" type="search" placeholder="Поиск блюд, напитков...">
+            <a href="booking.html" class="btn btn-outline-light btn-sm">Войти</a>
+        </form>
+    </nav>
+
+    <div class="container-fluid py-3">
+
+        <div class="row">
+            <div class="col-12">
+                <div id="hero-banner" class="jumbotron mb-3">
+                    <p class="subtitle-gold">Ресторан для влюблённых</p>
+                    <h1 class="display-4">Особенные вечера<br>вместе</h1>
+                    <p class="lead" style="max-width: 550px;">
+                        Изысканная кухня, уютная атмосфера и внимание к каждой детали. 
+                        FOREVER — место, где рождаются самые тёплые воспоминания.
+                    </p>
+                    <a href="booking.html" class="btn-gold mt-3">Забронировать столик</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="col-6">
+                <div class="card my-2 h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="row text-center w-100">
+                            <div class="col-3 feature-box">
+                                <h6>Романтическая атмосфера</h6>
+                                <p><small>Уют, свет свечей и приватность</small></p>
+                            </div>
+                            <div class="col-3 feature-box">
+                                <h6>Авторская кухня</h6>
+                                <p><small>Изысканные блюда от шеф-повара</small></p>
+                            </div>
+                            <div class="col-3 feature-box">
+                                <h6>Премиальные напитки</h6>
+                                <p><small>Лучшее шампанское и коктейли</small></p>
+                            </div>
+                            <div class="col-3 feature-box">
+                                <h6>Для особенных моментов</h6>
+                                <p><small>Свидания, годовщины и события</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card my-2 h-100">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="mb-0">Популярные блюда</h5>
+                            <a href="menu.html" class="subtitle-gold">Всё меню</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card dish-card">
+                                    <img src="Content/dish1.png" class="card-img-top" alt="Стейк">
+                                    <div class="card-body p-2">
+                                        <small>Стейк из мраморной говядины</small>
+                                        <p class="price-tag">2 490 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card dish-card">
+                                    <img src="Content/dish2.png" class="card-img-top" alt="Шампанское">
+                                    <div class="card-body p-2">
+                                        <small>Moet & Chandon Brut Imperial</small>
+                                        <p class="price-tag">7 890 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card dish-card">
+                                    <img src="Content/dish3.png" class="card-img-top" alt="Фондан">
+                                    <div class="card-body p-2">
+                                        <small>Шоколадный фондан с мороженым</small>
+                                        <p class="price-tag">790 ₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
